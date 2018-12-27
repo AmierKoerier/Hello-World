@@ -1,4 +1,4 @@
-!curl https://raw.githubusercontent.com/MicrosoftLearning/intropython/master/elements1_20.txt -o elements1_20.txt 
+#!curl https://raw.githubusercontent.com/MicrosoftLearning/intropython/master/elements1_20.txt -o elements1_20.txt 
 elements = open("elements1_20.txt",'r') 
 element_names = [] 
 element_lines = elements.readlines()
